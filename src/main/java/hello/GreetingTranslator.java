@@ -2,7 +2,7 @@ package hello;
 
 public class GreetingTranslator {
 	
-	public String sayHelloIn(String lang) {
+	public static String sayHelloIn(String lang) {
 		String hello;
 		if ("en".equals(lang)) {
 			hello = "hello";
@@ -11,7 +11,7 @@ public class GreetingTranslator {
 		} else {
 			hello = "no hablo tu idioma";
 		}
-    return hello;
+                return hello;
 	}
 
 }
